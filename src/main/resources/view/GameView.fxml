@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.fx_events.controller.GameViewController">
+   <children>
+      <Label fx:id="lblBackground" prefHeight="500.0" prefWidth="500.0">
+         <graphic>
+            <ImageView fitHeight="500.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Road View.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="lblBackground2" layoutX="10.0" layoutY="10.0" prefHeight="486.0" prefWidth="489.0">
+         <graphic>
+            <ImageView fitHeight="500.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Road View.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="lblCar" layoutX="251.0" layoutY="390.0" prefHeight="100.0" prefWidth="75.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/—Pngtree—red car top view icon_6587097.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+   </children>
+</AnchorPane>
